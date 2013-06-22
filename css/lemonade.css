@@ -141,3 +141,15 @@
     width: 50%;
   }
 }
+@media (max-width: 480px) {
+  .frame .bit-4:nth-child(2) {
+    float: right !important;
+  }
+  .frame .bit-4:nth-child(3) {
+    clear: both;
+    float: left;
+  }
+  .frame .bit-4:nth-child(4) {
+    float: right !important;
+  }
+}
