@@ -164,8 +164,11 @@ p {
   letter-spacing: 3px;
   padding-bottom: 20px;
 }
+footer {
+  text-align: center;
+}
 footer > p {
-  padding: 40px;
+  padding: 0px;
   padding-bottom: 100px;
   letter-spacing: 0;
 }
@@ -186,17 +189,28 @@ footer > p {
   border-radius: 6px;
   cursor: pointer;
 }
-a,
-a:visited {
+.button,
+.button:visited {
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  background: #ff6060;
+  font: 1em "Helvetica Neue";
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 100px;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
 }
-a:hover {
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-  color: #ffd464;
+.button:hover {
+  opacity: 0.9;
+  color: #fff;
 }
