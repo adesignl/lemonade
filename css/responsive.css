@@ -92,4 +92,8 @@
     font-size:0.8em;
     padding-bottom:15px;
   }
+
+  p > span {
+    display:none;
+  }
 }
