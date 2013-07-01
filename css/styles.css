@@ -5,13 +5,10 @@
 }
 
 body {
-  background: #fff;
+  background: #ffd464;
 }
 
 header {
-  background:#40a9e0;
-  margin-bottom:50px;
-  border-bottom:1px solid rgba(0,0,0,.1);
 }
 
 h1 {
@@ -61,7 +58,6 @@ footer > p {
   font: 1em "Helvetica Neue" Arial;
   background: #fff;
   color: #ccc;
-  border:2px solid #ccc;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -69,11 +65,6 @@ footer > p {
        -o-border-radius: 6px;
           border-radius: 6px;
   cursor: pointer;
-}
-
-.box:hover {
-  border:2px solid #ffd464;
-  color:#ffd464;
 }
 
 .button,
