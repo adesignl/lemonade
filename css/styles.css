@@ -1,38 +1,99 @@
-/*======================================
-  this is your main stylesheet for design
-  purposes only eg. typography, buttons,
-  layout colors etc.
-  
-  if you need to tweak the main grids
-  stylesheet then head over to 
-  lemonade.css
-======================================*/
+* {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 body {
   background: #ffd464;
 }
 
+header {
+}
 
-/*======================================
-  set the width of your main layout.
-  if your layout overflows in mobile or 
-  tablet then set a new width in the 
-  responsive.css stylesheet
-======================================*/
+h1 {
+  text-align: center;
+  font: 6em "Helvetica Neue" Arial;
+  color: #fff;
+  font-weight: 100;
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+p {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  color: rgba(0,0,0,.3);
+  font-weight: 500;
+  font-size:1.26em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top:-5px;
+  padding-bottom: 30px;
+}
+
+.fork {
+  padding-bottom:60px;
+}
+
+footer {
+  margin-top:0px;
+  text-align: center;
+  padding:40px;
+}
+
+footer > p {
+  padding: 0px;
+  text-transform:none;
+  letter-spacing: 0;
+}
+
 .frame {
   width: 95%;
   margin: 0px auto;
 }
 
-
-/*======================================
-  .box is used for styling the content 
-  within the .bit- sections eg
-  padding, colors, typography etc.
-======================================*/
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
   background: #fff;
   color: #ccc;
   padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  cursor: pointer;
+}
+
+.button,
+.button:visited {
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  background: #ff6060;
+  font: 1em "Helvetica Neue" Arial;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.9;
+  color: #fff;
 }
