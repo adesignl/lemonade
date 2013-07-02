@@ -106,3 +106,25 @@
     width: 50%;
   }
 }
+
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    margin-top:0;
+    font-size:0.8em;
+    padding-bottom:45px;
+  }
+
+  p > span {
+    display:none;
+  }
+
+  .fork {
+    display:none;
+  }
+}
