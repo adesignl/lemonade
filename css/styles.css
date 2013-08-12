@@ -5,30 +5,30 @@
 }
 
 body {
-  background: #ffd464;
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ff6060));
+   background-image: -webkit-linear-gradient(top, #ffffff, #ff6060); 
+   background-image:    -moz-linear-gradient(top, #ffffff, #ff6060);
+   background-image:     -ms-linear-gradient(top, #ffffff, #ff6060);
+   background-image:      -o-linear-gradient(top, #ffffff, #ff6060);
 }
 
 h1 {
   text-align: center;
-  font: 6em "Helvetica Neue" Arial;
-  color: #fff;
-  font-weight: 100;
+  font: 7em "Helvetica Neue" Arial;
+  color: #ff6060;
+  font-weight: 800;
   padding: 40px;
   padding-bottom: 0;
-  text-shadow:0px 1px 0px rgba(0,0,0,.1);
 }
 
 p {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  color: rgba(0,0,0,.3);
-  font-weight: 500;
-  font-size:1.26em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  color: #ff6060;
+  font-weight: 800;
+  font-size:2em;
   margin-top:-5px;
   padding-bottom: 30px;
-  text-shadow:0px 1px 0px rgba(225,225,225,.1);
 }
 
 .fork {
@@ -36,13 +36,13 @@ p {
 }
 
 footer {
-  margin-top:0px;
+  margin-top:50px;
   text-align: center;
   padding:40px;
 }
 
 footer > p {
-  padding: 0px;
+  padding-top:30px;
   text-transform:none;
   letter-spacing: 0;
 }
@@ -55,8 +55,8 @@ footer > p {
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  background: #fff;
-  color: #ccc;
+  background:#ff6060;
+  color:#fff;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -64,19 +64,18 @@ footer > p {
        -o-border-radius: 6px;
           border-radius: 6px;
   cursor: pointer;
-  box-shadow:0px 1px 0px rgba(0,0,0,.1);
 }
 
 .box:hover {
-  color:#1c1c1c;
+  color:#ffa3a3;
 }
 
 .button,
 .button:visited {
-  display: block;
   margin: 50px auto;
   width: 200px;
-  background: #ff6060;
+  margin-right:5px;
+  background: #fff;
   font: 1em "Helvetica Neue" Arial;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -88,16 +87,42 @@ footer > p {
           transition: all 0.1s ease-in-out;
   border: 0;
   padding: 15px;
-  color: #fff;
+  color: #ff6060;
   text-decoration: none;
 }
 
 .button:hover {
-  opacity: 0.9;
+  background:#ffc500;
   color: #fff;
 }
 
-.button:hover {
-  opacity: 0.9;
-  color: #fff;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    margin-top:0;
+    font-size:0.8em;
+    padding-bottom:45px;
+  }
+
+  footer {
+    margin-top:0;
+  }
+
+  .button {
+    display:block;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:0;
+  }
+
+  p > span {
+    display:none;
+  }
+
+  .fork {
+    display:none;
+  }
 }
