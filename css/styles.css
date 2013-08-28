@@ -11,7 +11,7 @@ body {
 h1 {
   text-align: center;
   font: 7em "Helvetica Neue" Arial;
-  color: #ffc500;
+  color: #ff6060;
   font-weight: 800;
   padding: 40px;
   padding-bottom: 0;
@@ -51,7 +51,7 @@ footer > p {
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  background:#ffc500;
+  background:#ff6060;
   color:#fff;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
