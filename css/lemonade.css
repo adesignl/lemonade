@@ -48,6 +48,27 @@
 }
 
 
+/* Mobile to Tablet Portrait
+===============================*/
+@media (min-width: 480px) and (max-width: 800px) {
+  .bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: 50%;
+  }
+
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: 100%;
+  }
+}
 
 /* Landscape mobile & down
 ===============================*/
@@ -86,27 +107,6 @@
   .bit-12 {width: 8.33%;}
 }
 
-/* Mobile to Tablet Portrait
-===============================*/
-@media (min-width: 480px) and (max-width: 800px) {
-  .bit-4,
-  .bit-6,
-  .bit-8,
-  .bit-10,
-  .bit-12 {
-    width: 50%;
-  }
-
-  .bit-1,
-  .bit-2,
-  .bit-3,
-  .bit-5,
-  .bit-7,
-  .bit-9,
-  .bit-11 {
-    width: 100%;
-  }
-}
 
 /* Landscape Tablet to Desktop
 ===============================*/
